@@ -26,7 +26,7 @@ const Cart: React.FC = () => {
         {cartItems.map((item) => (
           <div key={item._id} className="cart-item">
             <img
-              src={`http://localhost:5000${item.image}`}
+              src={`https://mern-stack-1-82ih.onrender.com${item.image}`}
               alt={item.name}
               className="cart-item-image"
             />
